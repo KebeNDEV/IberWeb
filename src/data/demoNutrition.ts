@@ -1,0 +1,58 @@
+export type DemoNutritionFact = { label: string; per100g: number; unit: 'kcal' | 'g' }
+
+export const demoNutritionByProduct: Record<string, DemoNutritionFact[]> = {
+  'anchoa-del-cantabrico': [
+    { label: 'Energía', per100g: 218, unit: 'kcal' },
+    { label: 'Grasas', per100g: 11, unit: 'g' },
+    { label: 'de las cuales saturadas', per100g: 2.4, unit: 'g' },
+    { label: 'Hidratos de carbono', per100g: 0, unit: 'g' },
+    { label: 'de los cuales azúcares', per100g: 0, unit: 'g' },
+    { label: 'Proteínas', per100g: 28, unit: 'g' },
+    { label: 'Sal', per100g: 4.2, unit: 'g' },
+  ],
+  'boqueron-en-vinagre': [
+    { label: 'Energía', per100g: 146, unit: 'kcal' },
+    { label: 'Grasas', per100g: 5.1, unit: 'g' },
+    { label: 'de las cuales saturadas', per100g: 1.2, unit: 'g' },
+    { label: 'Hidratos de carbono', per100g: 2, unit: 'g' },
+    { label: 'de los cuales azúcares', per100g: 1.4, unit: 'g' },
+    { label: 'Proteínas', per100g: 21, unit: 'g' },
+    { label: 'Sal', per100g: 2.9, unit: 'g' },
+  ],
+  'ensalada-de-salmon-y-bacalao': [
+    { label: 'Energía', per100g: 208, unit: 'kcal' },
+    { label: 'Grasas', per100g: 13, unit: 'g' },
+    { label: 'de las cuales saturadas', per100g: 2.5, unit: 'g' },
+    { label: 'Hidratos de carbono', per100g: 4.1, unit: 'g' },
+    { label: 'de los cuales azúcares', per100g: 1, unit: 'g' },
+    { label: 'Proteínas', per100g: 17, unit: 'g' },
+    { label: 'Sal', per100g: 1.6, unit: 'g' },
+  ],
+  'caballa-del-sur': [
+    { label: 'Energía', per100g: 228, unit: 'kcal' },
+    { label: 'Grasas', per100g: 16, unit: 'g' },
+    { label: 'de las cuales saturadas', per100g: 4, unit: 'g' },
+    { label: 'Hidratos de carbono', per100g: 0.3, unit: 'g' },
+    { label: 'de los cuales azúcares', per100g: 0.1, unit: 'g' },
+    { label: 'Proteínas', per100g: 21, unit: 'g' },
+    { label: 'Sal', per100g: 1.9, unit: 'g' },
+  ],
+  'sardina-ahumada': [
+    { label: 'Energía', per100g: 208, unit: 'kcal' },
+    { label: 'Grasas', per100g: 14, unit: 'g' },
+    { label: 'de las cuales saturadas', per100g: 3.3, unit: 'g' },
+    { label: 'Hidratos de carbono', per100g: 0.1, unit: 'g' },
+    { label: 'de los cuales azúcares', per100g: 0, unit: 'g' },
+    { label: 'Proteínas', per100g: 20, unit: 'g' },
+    { label: 'Sal', per100g: 1.8, unit: 'g' },
+  ],
+  'berula-al-ajillo': [
+    { label: 'Energía', per100g: 140, unit: 'kcal' },
+    { label: 'Grasas', per100g: 8, unit: 'g' },
+    { label: 'de las cuales saturadas', per100g: 1.2, unit: 'g' },
+    { label: 'Hidratos de carbono', per100g: 2.5, unit: 'g' },
+    { label: 'de los cuales azúcares', per100g: 1, unit: 'g' },
+    { label: 'Proteínas', per100g: 12, unit: 'g' },
+    { label: 'Sal', per100g: 1.8, unit: 'g' },
+  ],
+}
